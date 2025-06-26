@@ -6,23 +6,6 @@ This project implements topic modeling using various techniques and libraries. I
 
 The Danantara Topic Modeling project aims to explore and implement topic modeling techniques to extract insights from textual data. The project includes data preprocessing, model training, and evaluation steps.
 
-## Project Structure
-
-```
-danantara-topic-modeling/
-├── Notebooks/                                   # Jupyter notebooks and results
-│   ├── indobertweet.ipynb                       # Main notebook for IndoBERTweet topic modeling
-│   └── Result/
-│       └── indobertopic/
-│           └── min_cluster_size_50/
-│               ├── topic_modeling_result.csv
-│               ├── topic_keywords.csv
-│               └── after_stopwords/
-│                   └── topic_keywords.csv
-├── requirements.txt                             # Lists the required Python packages
-└── README.md                                    # Project documentation
-```
-
 ## Installation
 
 To set up the project, clone the repository and install the required dependencies:
